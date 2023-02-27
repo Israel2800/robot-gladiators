@@ -19,3 +19,7 @@ var numberFloatDataType = 10.4;
 
 // This is a Boolean data type, which can only be given a value of true or false.
 var booleanDataType = true;
+
+var playerName = window.prompt("What is your robot's name?");
+// Note the lack of quotation marks around playerName
+window.alert(playerName);
